@@ -1,0 +1,348 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    overflow-y: hidden;
+}
+
+.img{
+    background : url("https://images.news18.com/ibnlive/uploads/2020/11/1604413203_gmail_logo.jpg?im=FitAndFill,width=1200,height=1200");
+    height: 120px;
+    width : 110px;
+    margin-left: 5px;
+    object-fit:cover;
+    background-size: cover;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke ;
+}
+
+.icon{
+   color: grey;
+   padding:10px;
+   font-size: 25px;
+   cursor:pointer;
+}
+.icon:hover{
+    transform: scale(1.5);
+}
+.menu{
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.search{
+    display: flex;
+    flex:0.3;
+    align-items: center;
+    background-color: #f1f3f4;
+    padding: 5px;
+    margin-left: -300px;
+    border-radius: 5px;
+
+}
+
+.search>input{
+    border: none;
+    width:max-content;
+    padding:10px;
+    outline: none;
+    background-color: transparent;
+}
+
+.search>input{
+  padding-right : 400px;
+  font-size: 20px;
+  
+  
+}
+
+.user-menu{
+    padding-right: 50px;
+}
+
+.user-menu i:hover{
+    transform: scale(1.5);
+}
+
+.middle-left{
+    flex: 0.5;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+.middle-left>button{
+    margin:15px 10px 20px 22px;
+    padding:20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    color: grey;
+    background-color: whitesmoke;
+    box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.75);
+}
+.middle-left>button:hover{
+    cursor: pointer;
+    color: black;
+    transform:scale(1.1);
+}
+.middle-left i{
+  color: darkgray;
+  padding-right: 5px;
+  font-size: 17px;
+}
+
+.options{
+    display: flex;
+    flex:0.5;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    color:darkgray;
+}
+
+.options>span>i{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.options p{
+    flex:1;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    font-weight: lighter;
+    color: black;
+}
+
+.options:hover,
+.options:hover p,
+.options:hover i{
+   background: rgb(173, 204, 223);
+   color:#c04b37;
+   font-weight: 700;
+
+}
+
+.main-options,
+.main-options p,
+.main-options i{
+    color: black;
+}
+
+.middle{
+    display:flex;
+    height:100vh;
+}
+
+.mailbody{
+    flex: 1;
+    overflow:scroll;
+}
+
+.email-options{
+   position:sticky;
+   top:0;
+}
+
+.options1{
+    padding-left: 83px;
+}
+
+.options1 i{
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.arrow-drop{
+    size:5px;
+}
+
+.email-options{
+    display:flex;
+    align-items:center;
+}
+
+.email-options i,input{
+    margin:5px;
+}
+.email-list{
+    padding-left :55px;
+}
+.email-r{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    height: 50px;
+    cursor:pointer;
+    z-index:999;
+}
+
+.email-r:hover{
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,0.25);
+}
+
+.message{
+    display:flex;
+    flex:1.5;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.message p{
+    white-space:nowrap;
+    width:350px;
+    overflow: hidden;
+    padding-left : 5px;
+    padding-right: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    flex:0.3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.date-time{
+    padding-right: 15px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100px;
+}
+
+.description{
+    font-weight: 100;
+    color:grey;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color : black;
+    text-decoration: none;
+}
+
+.compose-body{
+    height:715px;
+    width: 700px;
+    border: 1px solid black;
+    margin-left: 570px;
+    margin-top: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.heading-right{
+    display: flex;
+    align-items: center;
+    
+}
+.heading-left{
+    padding-left: 30px;
+}
+.heading-left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.heading-right i{
+    padding:10px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.heading{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background: black;
+    overflow: hidden;
+    border-bottom: 1px solid grey;
+
+}
+
+.heading-right {
+    padding-right: 30px;
+}
+
+.to{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: grey;
+    border-bottom: 1px solid whitesmoke;
+    padding-left: 15px;
+}
+
+.to input{
+    outline: none;
+    border: none;
+    width:max-content;
+    background-color: transparent;
+}
+
+.Subject{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: gray;
+    padding-left: 15px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.Subject input{
+    outline: none;
+    border: none;
+    width:max-content;
+    background-color: transparent;
+    padding:10px;
+}
+
+#msg{
+  outline: none;
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  resize: none;
+}
+
+.submit{
+    padding-top: 2.5px;
+    padding-left: 20px;
+}
+
+button{
+    background-color: rgb(44, 23, 240);
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.draft{
+    color:#c04b37;
+    font-weight: lighter;
+    padding-left: 5px;
+}

@@ -1,0 +1,20 @@
+Project name -  Gmail clone.
+
+NOTE:
+
+I've gone through the documentation provided but i couldnt understand it clearly. And so, I couldnt use API's.
+The project is completely based on html and Css only.
+The project just represents the FrontEnd UserInterface of the Gmail Webapp.
+
+FUNCTIONALITIES INCLUDED :
+
+1) Included the functionalities for "inbox","sent" ,"starred","drafts" ,"snoozed" , "compose","reload","Close,minimize in compose".
+2) On clicking the compose button . The new message compose page is opened.
+3) On Clicking the Close button or minimize button in compose . The page is directed back to Inbox.
+4) On clicking the Sent , the sent mails are displayed.
+5) on clicking the Inbox , the inbox mails are displayed.
+6) On clicked Starred , the Starred Mails are Displayed.
+7) On Clicking snoozed , the snoozed mails are displayed.
+8) On clicking the reload or refresh button the current page is reloaded.
+
+
